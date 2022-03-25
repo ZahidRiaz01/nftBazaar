@@ -1,0 +1,155 @@
+.land-image {
+    background-image: url("../../Assets/Group 22.png");
+    opacity: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    /* width: 100vw; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.land-h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+.title {
+    background: #DCDCDC;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 18px 23px;
+    border-radius: 4px;
+    text-align: left;
+    border: -5px solid #eee;
+    cursor: pointer;
+    position: relative;
+}
+
+/* span {
+    position: absolute;
+    right: 15px;
+    font-size: 0.8em;
+} */
+.land-span2 {
+    position: absolute;
+    right: 15px;
+    font-size: 0.8em;
+}
+
+.contentbox {
+    margin: 10px auto;
+    margin-bottom: 10px;
+    background: #303339;
+    /* padding-left: 10px; */
+    border-radius: 4px;
+    height: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: all 0.25s;
+}
+
+/* img {
+    margin-right: 10px;
+} */
+
+/* p {
+    padding: 0;
+    margin: 0;
+} */
+
+.title:checked+.contentbox {
+    padding: 20px 0px 20px 10px;
+    height: auto;
+}
+
+input[type= "checkbox"] {
+    display: none;
+}
+.land-title{
+    display: none;
+}
+.landb0xs {
+    width: 80px;
+    height: 80px;
+    background-color: #A1FE00;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.landb0xs1 {
+    width: 80px;
+    height: 80px;
+    background-color: #DCDCDC;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landb0xs2 {
+    width: 80px;
+    height: 80px;
+    background-color: #00A7FE;
+    color: black;
+    font-weight: bold;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width: 400px) {
+    .landb0xs {
+        width: 60px;
+        height: 60px;
+        background-color: #A1FE00;
+        color: black;
+        font-weight: bold;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .landb0xs1 {
+        width: 60px;
+        height: 60px;
+        background-color: #DCDCDC;
+        color: black;
+        font-weight: bold;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .landb0xs2 {
+        width: 60px;
+        height: 60px;
+        background-color: #00A7FE;
+        color: black;
+        font-weight: bold;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

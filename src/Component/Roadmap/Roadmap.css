@@ -1,0 +1,30 @@
+.road-map-h{
+    color: #00A7FE;
+    font-size: 24px;
+    font-weight: 600;
+}
+.roadmap-p{
+    color: #9FA09E;
+    font-size: 18px;
+}
+.roadmap-img{
+    width: 240px;
+}
+.map-image{
+    width: 100px;
+    padding-top: 200px;
+}
+@media(max-width: 600px){
+    .dipaly{
+        display: none;
+    }
+    .road-box{
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+        /* padding-bottom: 40px; */
+    }
+    .roadmap-img{
+        width: 180px;
+    }
+}

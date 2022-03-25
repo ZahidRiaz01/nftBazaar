@@ -1,0 +1,88 @@
+.Home-image {
+
+    background-image: url("../../Assets/Gradient overlay.png"),url("../../Assets/tiger2.jpg");
+    opacity: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.home-h2{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+.home-p{
+    color: white;
+    font-size: 24px;
+}
+.home-btn{
+    background-color: #00a7fe;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-btn:hover{
+    background-color: #fcfcfc;
+    color: #00a7fe;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-btn1{
+    background-color: #04111d;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-btn1:hover{
+    background-color: #ffffff;
+    color: #04111d;
+    font-size: 20px;
+    font-weight: bold;
+}
+.home-img{
+    height: 340px;
+    /* width: 300px; */
+}
+@media(max-width: 770px){
+    .Home-image {
+
+        background-image: url("../../Assets/Gradient overlay.png"),url("../../Assets/tiger2.jpg");
+        opacity: 100%;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+        background-size: cover;
+        background-position: center;
+        height: auto;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+}
+@media(max-width:600px){
+    .home-h2{
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .home-p{
+        color: white;
+        font-size: 24px;
+    }
+}
+@media(max-width:480px){
+    .home-h2{
+        color: white;
+        font-weight: bold;
+        font-size: 22px;
+    }
+    .home-p{
+        color: white;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,12 @@
+.footer-color{
+    background-color: #04111D;
+}
+.footerimage{
+    width: 5px;
+    height: 220px;
+}
+@media(max-width: 600px){
+    .footerdispaly{
+        display: none;
+    }
+}
